@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "eleutherus_and_void:block/eleutherus_pressure_plate"
+    },
+    "powered=true": {
+      "model": "eleutherus_and_void:block/eleutherus_pressure_plate_down"
+    }
+  }
+}

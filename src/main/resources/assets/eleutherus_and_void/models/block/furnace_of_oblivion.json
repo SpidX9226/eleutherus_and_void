@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "eleutherus_and_void:blocks/furnace_of_oblivion_top",
+        "front": "eleutherus_and_void:blocks/furnace_of_oblivion_front_off",
+        "side": "eleutherus_and_void:blocks/furnace_of_oblivion_side"
+    }
+}

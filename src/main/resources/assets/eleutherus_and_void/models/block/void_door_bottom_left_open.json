@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "eleutherus_and_void:block/void_door_bottom",
+    "top": "eleutherus_and_void:block/void_door_top"
+  }
+}

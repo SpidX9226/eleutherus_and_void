@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "furnace_of_oblivion" },
+        "facing=south": { "model": "furnace_of_oblivion", "y": 180 },
+        "facing=west":  { "model": "furnace_of_oblivion", "y": 270 },
+        "facing=east":  { "model": "furnace_of_oblivion", "y": 90 }
+    }
+}

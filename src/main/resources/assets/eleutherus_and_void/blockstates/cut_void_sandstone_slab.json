@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eleutherus_and_void:block/cut_void_sandstone_slab"
+    },
+    "type=double": {
+      "model": "eleutherus_and_void:block/cut_void_sandstone"
+    },
+    "type=top": {
+      "model": "eleutherus_and_void:block/cut_void_sandstone_slab_top"
+    }
+  }
+}

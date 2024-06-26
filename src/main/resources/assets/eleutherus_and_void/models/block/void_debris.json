@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "eleutherus_and_void:block/void_debris_top",
+    "side": "eleutherus_and_void:block/void_debris_side"
+  }
+}

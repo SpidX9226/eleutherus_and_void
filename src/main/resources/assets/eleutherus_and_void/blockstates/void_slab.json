@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eleutherus_and_void:block/void_slab"
+    },
+    "type=double": {
+      "model": "eleutherus_and_void:block/void_planks"
+    },
+    "type=top": {
+      "model": "eleutherus_and_void:block/void_slab_top"
+    }
+  }
+}

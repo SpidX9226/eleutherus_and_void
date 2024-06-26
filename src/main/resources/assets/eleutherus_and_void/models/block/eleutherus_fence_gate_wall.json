@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fence_gate_wall",
+  "textures": {
+    "texture": "eleutherus_and_void:block/eleutherus_planks"
+  }
+}

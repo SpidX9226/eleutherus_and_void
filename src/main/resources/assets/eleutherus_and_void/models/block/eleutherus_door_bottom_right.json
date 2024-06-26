@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "eleutherus_and_void:block/eleutherus_door_bottom",
+    "top": "eleutherus_and_void:block/eleutherus_door_top"
+  }
+}

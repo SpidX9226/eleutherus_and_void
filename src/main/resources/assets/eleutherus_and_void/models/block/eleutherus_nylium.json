@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "minecraft:block/end_stone",
+    "side": "eleutherus_and_void:block/eleutherus_nylium_side",
+    "top": "eleutherus_and_void:block/eleutherus_nylium_top"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "eleutherus_and_void:item/eleutherus_chestplate",
+    "layer1": "minecraft:trims/items/chestplate_trim_lapis"
+  }
+}

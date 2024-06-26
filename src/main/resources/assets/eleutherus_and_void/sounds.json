@@ -1,0 +1,10 @@
+{
+  "eleutherus_poem": {
+    "sounds": [
+      {
+        "name": "eleutherus_and_void:eleutherus_poem",
+        "stream": true
+      }
+    ]
+  }
+}

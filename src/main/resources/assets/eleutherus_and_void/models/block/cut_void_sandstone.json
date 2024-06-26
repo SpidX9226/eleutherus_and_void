@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "eleutherus_and_void:block/void_sandstone_top",
+    "side": "eleutherus_and_void:block/cut_void_sandstone"
+  }
+}

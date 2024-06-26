@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "eleutherus_and_void:block/void_planks"
+  }
+}
