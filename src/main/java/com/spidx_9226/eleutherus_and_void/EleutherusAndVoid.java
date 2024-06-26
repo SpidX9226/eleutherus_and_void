@@ -40,6 +40,7 @@ public class EleutherusAndVoid {
         modEventBus.addListener(this::addCreative);
 
         ModItems.register(modEventBus);
+
         ModBlocks.register(modEventBus);
         CreativeModTabs.register(modEventBus);
         ModEffects.register(modEventBus);
