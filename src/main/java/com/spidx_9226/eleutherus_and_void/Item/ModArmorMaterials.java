@@ -27,6 +27,14 @@ public class ModArmorMaterials extends ArmorMaterials {
         p_327103_.put(ArmorItem.Type.BODY, 11);
     }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.ELEUTHERUS.get()));
 
+    public static final Holder<ArmorMaterial> VOID = register("eleutherus", Util.make(new EnumMap<>(ArmorItem.Type.class), p_327103_ -> {
+        p_327103_.put(ArmorItem.Type.BOOTS, 4);
+        p_327103_.put(ArmorItem.Type.LEGGINGS, 7);
+        p_327103_.put(ArmorItem.Type.CHESTPLATE, 9);
+        p_327103_.put(ArmorItem.Type.HELMET, 4);
+        p_327103_.put(ArmorItem.Type.BODY, 13);
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 5.0F, 0.7F, () -> Ingredient.of(ModItems.VOID_INGOT.get()));
+
     private static Holder<ArmorMaterial> register(
             String p_334359_,
             EnumMap<ArmorItem.Type, Integer> p_329993_,

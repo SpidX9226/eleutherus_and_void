@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "eleutherus_and_void:item/eleutherus_raspberry"
+  }
+}

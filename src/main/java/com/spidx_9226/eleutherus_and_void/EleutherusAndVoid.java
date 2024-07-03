@@ -80,6 +80,8 @@ public class EleutherusAndVoid {
 
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.ELEUTHERUS_ROSE.get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.POTTED_ELEUTHERUS_ROSE.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ELEUTHERUS_RASPBERRY_BUSH.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.VOID_PETALS.get(), RenderType.cutout());
 
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.ELEUTHERUS_LANTERN.get(), RenderType.cutout());
         }

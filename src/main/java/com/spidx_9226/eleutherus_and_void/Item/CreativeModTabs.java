@@ -20,9 +20,14 @@ public class CreativeModTabs {
                         // void
                         pOutput.accept(ModItems.ELEUTHERUS_AND_VOID_MUSIC_DISK.get());
                         pOutput.accept(ModBlocks.VOID_DEBRIS.get());
+                        pOutput.accept(ModBlocks.MARBLE.get());
                         pOutput.accept(ModItems.RAW_VOID.get());
+                        pOutput.accept(ModItems.VOID_FLAMBERGE.get());
                         pOutput.accept(ModItems.VOID_INGOT.get());
                         pOutput.accept(ModBlocks.VOID_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_VOID_BLOCK.get());
+                        pOutput.accept(ModBlocks.VOID_PETALS.get());
+                        pOutput.accept(ModItems.ELEUTHERUS_RASPBERRY.get());
 
                         pOutput.accept(ModBlocks.RANDOM_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_TUNGSTEN_ORE.get());

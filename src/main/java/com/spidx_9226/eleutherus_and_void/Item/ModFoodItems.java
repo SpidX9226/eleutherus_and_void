@@ -10,4 +10,7 @@ public class ModFoodItems {
 
     public static final FoodProperties ELEUTHERUS_MANGO = new FoodProperties.Builder().nutrition(7)
             .saturationModifier(0.7f).build();
+
+    public static final FoodProperties ELEUTHERUS_RASPBERRY = new FoodProperties.Builder().nutrition(4)
+            .saturationModifier(0.4f).fast().build();
 }

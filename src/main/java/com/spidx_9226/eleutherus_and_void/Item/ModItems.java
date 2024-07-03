@@ -4,10 +4,10 @@ import com.spidx_9226.eleutherus_and_void.EleutherusAndVoid;
 import com.spidx_9226.eleutherus_and_void.Item.custom.EleutherusItem;
 import com.spidx_9226.eleutherus_and_void.Item.custom.Flamberge;
 import com.spidx_9226.eleutherus_and_void.Item.custom.ModSmithingTemplate;
+import com.spidx_9226.eleutherus_and_void.Item.custom.VoidFlamberge;
 import com.spidx_9226.eleutherus_and_void.block.ModBlocks;
 import com.spidx_9226.eleutherus_and_void.fluid.ModFluids;
 import com.spidx_9226.eleutherus_and_void.soud.ModJukeboxSongs;
-import com.spidx_9226.eleutherus_and_void.soud.ModSounds;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,6 +20,9 @@ public class ModItems extends Items{
 
     public static final RegistryObject<Item> ELEUTHERUS = ITEMS.register("eleutherus",
             () -> new EleutherusItem(new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> ELEUTHERUS_RASPBERRY = ITEMS.register("eleutherus_raspberry",
+            () -> new ItemNameBlockItem(ModBlocks.ELEUTHERUS_RASPBERRY_BUSH.get(), new Item.Properties().food(ModFoodItems.ELEUTHERUS_RASPBERRY)));
 
     public static final RegistryObject<Item> VOID_INGOT = ITEMS.register("void_ingot",
             () -> new Item(new Item.Properties().fireResistant()));
@@ -61,6 +64,9 @@ public class ModItems extends Items{
 
     public static final RegistryObject<Item> ELEUTHERUS_FLAMBERGE = ITEMS.register("eleutherus_flamberge",
             () -> new Flamberge(ModToolTiers.ELEUTHERUS, new Item.Properties().fireResistant().attributes(SwordItem.createAttributes(ModToolTiers.ELEUTHERUS, 7, -2.6F))));
+
+    public static final RegistryObject<Item> VOID_FLAMBERGE = ITEMS.register("void_flamberge",
+            () -> new VoidFlamberge(ModToolTiers.VOID, new Item.Properties().fireResistant().attributes(SwordItem.createAttributes(ModToolTiers.VOID, 8, -2.6F))));
 
     public static final RegistryObject<Item> ELEUTHERUS_HELMET = ITEMS.register("eleutherus_helmet",
             () -> new ArmorItem(ModArmorMaterials.ELEUTHERUS, ArmorItem.Type.HELMET, new Item.Properties().fireResistant()));

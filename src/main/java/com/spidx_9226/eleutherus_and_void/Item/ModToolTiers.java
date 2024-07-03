@@ -16,7 +16,9 @@ import java.util.function.Supplier;
 
 public enum ModToolTiers implements Tier {
 
-    ELEUTHERUS(ModTags.Blocks.INCORRECT_FOR_ELEUTHERUS_TOOL, 2542, 12.0F, 7.0F, 32, () -> Ingredient.of(ModItems.ELEUTHERUS.get()));
+    ELEUTHERUS(ModTags.Blocks.INCORRECT_FOR_ELEUTHERUS_TOOL, 2542, 12.0F, 7.0F, 32, () -> Ingredient.of(ModItems.ELEUTHERUS.get())),
+
+    VOID(ModTags.Blocks.INCORRECT_FOR_VOID_TOOL, 7521, 14.0F, 8.0F, 64, () -> Ingredient.of(ModItems.VOID_INGOT.get()));
 
     private final TagKey<Block> incorrectBlocksForDrops;
     private final int uses;

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "eleutherus_and_void:block/eleutherus_raspberry_bush_stage2"
+  }
+}

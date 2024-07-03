@@ -76,6 +76,9 @@ public class ModBlocks extends Blocks{
                     }).noOcclusion().mapColor(MapColor.COLOR_PURPLE)));
 
     // VOID BLOCKS
+    public static final RegistryObject<Block> VOID_PETALS = registerBlock("void_petals",
+            () -> new VoidPetalsBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_PETALS).mapColor(MapColor.COLOR_PURPLE)));
+
     public static final RegistryObject<Block> VOID_DEBRIS = registerBlock("void_debris",
             () -> new VoidDebrisBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.ANCIENT_DEBRIS).lightLevel(value ->{
                 return 3;
@@ -91,8 +94,14 @@ public class ModBlocks extends Blocks{
                 return 7;
             }).mapColor(MapColor.COLOR_PURPLE)));
 
+    public static final RegistryObject<Block> RAW_VOID_BLOCK = registerBlock("raw_void_block",
+            ()-> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.RAW_IRON_BLOCK).mapColor(MapColor.COLOR_BLACK)));
+
     public static final RegistryObject<Block> VOID_NYLIUM = registerBlock("void_nylium",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE).mapColor(MapColor.COLOR_BLACK).sound(SoundType.NYLIUM)));
+
+    public static final RegistryObject<Block> ELEUTHERUS_RASPBERRY_BUSH = BLOCKS.register("eleutherus_raspberry_bush",
+            () -> new EleutherusRaspberryCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH).mapColor(MapColor.COLOR_BLACK)));
 
     public static final RegistryObject<Block> VOID_LEAVES = registerBlock("void_leaves",
             () -> new VoidLeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.CHERRY_LEAVES).noOcclusion().mapColor(MapColor.COLOR_BLACK)));
@@ -285,6 +294,9 @@ public class ModBlocks extends Blocks{
 //                    }).mapColor(MapColor.COLOR_PURPLE), ModBlocks.ELEUTHERUS_NYLIUM));
 
     public static final RegistryObject<Block> PORTAL_FLUID = registerBlock("portal_fluid", PortalFluidBlock::new);
+
+    public static final RegistryObject<Block> MARBLE = registerBlock("marble",
+            ()-> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIORITE)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
